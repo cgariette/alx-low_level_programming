@@ -14,10 +14,10 @@ long longlongInt;
 float float1;
 
 /*Sizeof evaluates the size of a variable*/
-printf("Size of a char: ", sizeof(charType));
-printf("Size of an int: ", sizeof(intType));
-printf("Size of a long int: ", sizeof(longInt));
-printf("Size of a long long int: ", sizeof(longlongInt));
-printf("Size of a float: ", sizeof(float1));
+printf("Size of a char: %zu byte(s)\n", sizeof(charType));
+printf("Size of an int: %zu byte(s)\n", sizeof(intType));
+printf("Size of a long int: %zu byte(s)\n", sizeof(longInt));
+printf("Size of a long long int: %zu byte(s)\n", sizeof(longlongInt));
+printf("Size of a float: %zu byte(s)\n", sizeof(float1));
 return (0);
 }
