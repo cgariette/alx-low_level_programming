@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-int x, y;
-for (x = 0; x <= 9; x++)
+int i, j;
+for (i = 0; i < 9; i++)
 {
-for (y = 0; y <= 9; y++)
+for (j = i + 1; j <= 9; j++) 
 {
-if (x != y && x < y)
+putchar('0' + i);
+putchar('0' + j);
+if (i != 8 || j != 9) 
 {
-putchar((x % 10) + '0');
-putchar((y % 10) + '0');
 putchar(',');
 putchar(' ');
 }
