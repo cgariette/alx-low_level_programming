@@ -4,7 +4,7 @@
 *
 * Description: using the main function
 * this program prints "Programming is positive, zero, or negative
-* Return: 0
+* Return: 1
 */
 int main(void)
 {
@@ -14,5 +14,5 @@ for (ch = 'a' ; ch <= 'z' ; ch++)
 putchar(ch);
 }
 putchar('\n');
-return (0);
+return (1);
 }
