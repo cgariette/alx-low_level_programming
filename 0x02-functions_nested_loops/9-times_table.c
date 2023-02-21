@@ -21,6 +21,6 @@ else
 _putchar((res / 10) + '0');
 _putchar((res % 10) + '0');
 }
-putchar('\n');
+_putchar('\n');
 }
 }
