@@ -10,8 +10,8 @@ int x, mult, res;
 for (x = 0; x <= 9; x++)
 {
 _putchar('0');
-{
 for (mult = 1; mult <= 9; mult++)
+{
 _putchar(',');
 _putchar(' ');
 res = x * mult;
