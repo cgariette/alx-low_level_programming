@@ -10,7 +10,6 @@ for (i = 1; i <= 10; i++)
 {
 for (alph = 'a'; alph <= 'z'; alph++)
 _putchar(alph);
-}
 _putchar('\n');
 }
-
+}
