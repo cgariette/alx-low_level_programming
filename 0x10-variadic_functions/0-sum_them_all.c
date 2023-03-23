@@ -4,7 +4,7 @@
  * sum_them_all - returns sum of all it's parameters
  *@n: number of arguements paased to the function
  *
- * Return: 0 if if n is 0
+ * Return: the resulting sum.
  */
 
 int sum_them_all(const unsigned int n, ...)
