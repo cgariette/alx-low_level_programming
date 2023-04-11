@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_binary - prints the binary representation of a number
@@ -6,22 +7,24 @@
  *
  */
 void print_binary(unsigned long int n)
+{
+	long int t;
+	int shift;
 
-	if (n == 0) {
-        printf("0");
-        return;
-    }
-   
-   // Stores binary representation of number.
-   int binaryNum[32]; // Assuming 32 bit integer.
-   int i=0;
-   
-   for ( ;num > 0; ){
-      binaryNum[i++] = num % 2;
-      num /= 2;
-   }
-   
-   // Printing array in reverse order.
-   for (int j = i-1; j >= 0; j--)
-      printf("%d", binaryNum[j]);
+	if (n == 0)
+	{
+	printf("0");
+	return;
+	}
+	/* Stores binary representation of number*/
+	for (t = n, shift = 0; (t >>= 1) > 0; shift++)
+	;
+	/* Printing array in reverse order.*/
+	for (; shift >= 0; shift--)
+	{
+	if ((n >> shift) & 1)
+	printf("1");
+	else
+		printf("0");
+}
 }
