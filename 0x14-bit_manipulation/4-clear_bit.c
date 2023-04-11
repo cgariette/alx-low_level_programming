@@ -9,7 +9,7 @@
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
-	long int num;
+	unsigned long int num;
 	unsigned int temp;
 
 	if (index > 64)
