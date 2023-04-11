@@ -16,15 +16,13 @@ void print_binary(unsigned long int n)
 	printf("0");
 	return;
 	}
-	/* Stores binary representation of number*/
 	for (t = n, shift = 0; (t >>= 1) > 0; shift++)
 	;
-	/* Printing array in reverse order.*/
 	for (; shift >= 0; shift--)
 	{
 	if ((n >> shift) & 1)
 	printf("1");
 	else
-		printf("0");
+	printf("0");
 }
 }
