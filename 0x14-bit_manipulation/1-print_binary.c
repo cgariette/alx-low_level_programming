@@ -9,7 +9,7 @@
 void print_binary(unsigned long int n)
 {
 	unsigned long int t;
-	int shift;
+	unsigned int shift;
 
 	if (n == 0)
 	{
@@ -18,7 +18,7 @@ void print_binary(unsigned long int n)
 	}
 	for (t = n, shift = 0; (t >>= 1) > 0; shift++)
 	;
-	for (; shift >= 0; shift--)
+for (; shift >= 0; shift--)
 	{
 	if ((n >> shift) & 1)
 	printf("1");
