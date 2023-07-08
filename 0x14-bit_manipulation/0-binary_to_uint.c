@@ -27,4 +27,4 @@ total += power;
 }
 
 return (total);
-)
+}
