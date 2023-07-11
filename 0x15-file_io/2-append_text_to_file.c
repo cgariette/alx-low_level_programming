@@ -26,7 +26,7 @@ op = open(filename, O_WRONLY | O_APPEND);
 wr = write(op, text_content, length);
 
 if (op == -1 || wr == -1)
-        return (-1);
+return (-1);
 
 close(op);
 
