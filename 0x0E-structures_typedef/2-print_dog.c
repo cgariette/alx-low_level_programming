@@ -5,9 +5,6 @@
 /**
  * print_dog - prints a struct dog
  * @d: pointer to struct dog to initialize
- * @name: name to initialize
- * @age: age to initialize
- * @owner: owner to initialize
  *
  */
 void print_dog(struct dog *d)
